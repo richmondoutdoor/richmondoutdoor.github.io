@@ -1,0 +1,146 @@
+html{
+	font-family: "Open Sans", Helvetica,Arial,sans-serif;
+}
+
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.logo {
+	float: left;
+}
+
+.logowrapper {
+	width: 1000px;
+	margin: 0 auto;
+	height: 225px;
+	background-color: white;
+
+}
+
+.cycleimage {
+	width: 100%;
+	background-size:cover;
+  	height: 0;
+  	padding-bottom: 37%;
+  	background-position-y: -220px;
+  	margin: 0 auto;
+}
+
+.cycleimage.about-header {
+	background-image: url('cycle.JPG');
+}
+
+.cycleimage.event-header {
+	background-image: url('http://i.imgur.com/Km7hq0w.jpg');
+}
+
+.cycleimage.accom-header {
+	background-image: url('http://i.imgur.com/Pqsjhgn.jpg');
+}
+
+.cycleimage.entry-header {
+	background-position-y: 0px;
+	background-image: url('http://i.imgur.com/ERHgxve.jpg');
+}
+
+.cycleimage.contact-header {
+	background-position-y: -380px;
+	background-image: url('http://i.imgur.com/odkNIeR.jpg');
+}
+
+.gallery-image {
+	width: 650px;
+	margin-bottom: 10px;
+	border: 1px solid #666;
+}
+
+.subheading {
+	font-size: 60px;
+	padding-top: 26px;
+}
+
+.subheading span {
+	font-size: 40px;
+    line-height: 1em;
+    display: inline-block;
+    width: 650px;
+}
+
+.nav>li>a {
+	padding: 10px 50px;
+	border-radius: 3px 3px 0px 0px;
+
+
+}
+
+.navwrapper {
+
+	color: white;
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background-color: #8DD5E6;
+}
+
+.content-wrapper {
+	padding-bottom: 58%;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.content-wrapper .content {
+	width: 630px;
+	float: left;
+	padding-left: 50px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+.content-wrapper.about {
+	padding-bottom: 75%;
+}
+
+.content-wrapper.gallery {
+	height: 15050px;
+}
+
+.content-wrapper.events {
+	padding-bottom: 44%;
+}
+.content-wrapper.accom {
+	padding-bottom: 40%;
+}
+
+.content-wrapper.contact {
+	padding-bottom: 30%;
+}
+
+.content-wrapper.entries {
+	padding-bottom: 183%;
+}
+
+.content-wrapper .delfin {
+	float: right;
+	margin-right: 100px;
+}
+
+.content {
+	background-color: #fff;
+    padding: 0px 15px 15px 15px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
