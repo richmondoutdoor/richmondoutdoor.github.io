@@ -12,6 +12,12 @@ html{
 	float: left;
 }
 
+.cycling-logo {
+	margin: 0 auto;
+	display: block;
+	width: 350px;
+}
+
 .logowrapper {
 	width: 1000px;
 	margin: 0 auto;
