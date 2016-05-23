@@ -1,7 +1,7 @@
 $(function(){
   var $gallery = $('#gallery-2016-day1');
 
-  if($gallery){
+  if($gallery.length){
     var day1Length = 593;
     var ignores = [6, 23, 60, 61, 62, 63, 64, 65, 66, 67, 68,
     383, 384, 390, 391, 417, 435, 438, 443, 452, 461, 474, 479,
@@ -13,7 +13,7 @@ $(function(){
         var img = document.createElement('img');
         var span = document.createElement('span');
         span.innerText = "Day 1 #"+i;
-        img.src = "Public/images/Day1/  ("+i+")  .jpg";
+        img.src = "Public/images/Day1/  ("+i+")  .JPG";
         div.className = "photo";
         div.appendChild(img);
         div.appendChild(span);
@@ -24,7 +24,7 @@ $(function(){
 
   var $gallery = $('#gallery-2016-day2');
 
-  if($gallery){
+  if($gallery.length){
     var day2Length = 503;
     var ignores = [60];
 
@@ -34,7 +34,7 @@ $(function(){
         var img = document.createElement('img');
         var span = document.createElement('span');
         span.innerText = "Day 2 #"+i;
-        img.src = "Public/images/Day2/   ("+i+").jpg";
+        img.src = "Public/images/Day2/   ("+i+").JPG";
         div.className = "photo";
         div.appendChild(img);
         div.appendChild(span);
