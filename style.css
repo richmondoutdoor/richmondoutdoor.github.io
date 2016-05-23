@@ -136,17 +136,68 @@ html{
 	margin-right: 100px;
 }
 
+.content-wrapper.gmain {
+	padding-bottom: 42%;
+	height: 0px;
+}
+
 .content {
 	background-color: #fff;
     padding: 0px 15px 15px 15px;
     font-size: 15px;
 }
+.clickpics1,
+.clickpics2 {
+	display: inline-block;
+	width: 279px;
+	float: left;
+	margin: 1px;
+}
+.clickpics1 img{
+	width:100%;
 
+}
+.clickpics2 img{
+	width:100%;
+}
 
+.photo {
+	width: 280px;
+	float: left;
+	height: 413px;
+	margin: 10px;
+	position: relative;
+	border: 1px solid #ccc;
+	padding-left: 15px;
+	border-radius: 4px;
+	background-color: #DEF1F7;
+}
+.photo img {
+	max-height: 100%;
+  max-width: 88%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.gmain {
+	position: relative;
+}
+.gmain .delfin {
+	float: right;
+	position: absolute;
+right: 114px;
+margin-right: 0px;
+}
+.g2016 .content {
+	width: 994px;
+}
 
-
-
-
-
-
-
+/*.photos img {
+	width:100px;
+	height:100px;
+}*/
