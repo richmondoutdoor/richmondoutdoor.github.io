@@ -140,7 +140,7 @@ html{
 }
 
 .content-wrapper.gmain {
-	padding-bottom: 42%;
+	padding-bottom: 65%;
 	height: 0px;
 }
 
@@ -150,7 +150,8 @@ html{
     font-size: 15px;
 }
 .clickpics1,
-.clickpics2 {
+.clickpics2,
+.clickpics3 {
 	display: inline-block;
 	width: 279px;
 	float: left;
@@ -161,6 +162,9 @@ html{
 
 }
 .clickpics2 img{
+	width:100%;
+}
+.clickpics3 img{
 	width:100%;
 }
 
