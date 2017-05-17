@@ -42,4 +42,41 @@ $(function(){
       }
     }
   }
+
+  // 2017
+  var $gallery = $('#gallery-2017-day1');
+
+  if($gallery.length){
+    var day1Length = 517;
+
+    for(var i=1; i<=day1Length; i++){
+      var div = document.createElement('div');
+      var img = document.createElement('img');
+      var span = document.createElement('span');
+      span.innerText = "Day 1 #"+i;
+      img.src = "Public/images/2017/Day1W/"+i+".jpg";
+      div.className = "photo";
+      div.appendChild(img);
+      div.appendChild(span);
+      $gallery.append(div);
+    }
+  }
+
+  var $gallery = $('#gallery-2017-day2');
+
+  if($gallery.length){
+    var day2Length = 670;
+
+    for(var i=1; i<=day2Length; i++){
+      var div = document.createElement('div');
+      var img = document.createElement('img');
+      var span = document.createElement('span');
+      span.innerText = "Day 2 #"+i;
+      img.src = "Public/images/2017/Day2W/"+i+".jpg";
+      div.className = "photo";
+      div.appendChild(img);
+      div.appendChild(span);
+      $gallery.append(div);
+    }
+  }
 });
