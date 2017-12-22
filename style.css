@@ -12,6 +12,23 @@ html{
 	float: left;
 }
 
+.flyer {
+	width: 90%;
+	padding-left: 10%;
+}
+
+.new-logo {
+	text-align: center;
+	margin-top: -125px;
+    margin-bottom: -125px;
+}
+
+.fb-cta {
+	font-size: 2rem;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
 .cycling-logo {
 	margin: 0 auto;
 	display: block;
