@@ -9,7 +9,13 @@ html{
 
 
 .logo {
+	width: 350px;
 	float: left;
+    margin-top: 20px;
+}
+
+.logo img {
+	width: 100%;
 }
 
 .flyer {
@@ -47,9 +53,10 @@ html{
 	width: 100%;
 	background-size:cover;
   	height: 0;
-  	padding-bottom: 37%;
+  	padding-bottom: 30%;
   	background-position-y: -220px;
   	margin: 0 auto;
+  	border-radius: 3px 3px 0px 0px;
 }
 
 .cycleimage.about-header {
@@ -81,8 +88,9 @@ html{
 }
 
 .subheading {
-	font-size: 60px;
-	padding-top: 26px;
+	font-size: 70px;
+    padding-top: 3px;
+    text-align: right;
 }
 
 .subheading span {
@@ -93,10 +101,8 @@ html{
 }
 
 .nav>li>a {
-	padding: 10px 50px;
-	border-radius: 3px 3px 0px 0px;
-
-
+	text-align: center;
+	border-radius: 3px 3px 3px 3px;
 }
 
 .navwrapper {
@@ -104,17 +110,27 @@ html{
 	color: white;
 	width: 1000px;
 	margin: 0 auto;
+}
+.nav-pills {
+	display: flex;
+    border-bottom: 1px dashed #a60000;
+    padding: 8px 0px 8px 0px;
+    background-color: #f7f7f7;
+}
 
+.nav>li {
+	flex: 1;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-	background-color: #8DD5E6;
+	background-color: #680001;
 }
 
 .content-wrapper {
-	padding-bottom: 58%;
     border: 1px solid #ccc;
     margin-bottom: 20px;
+    border-radius: 0px 0px 3px 3px;
+    background-color: #fff;
 }
 
 .content-wrapper .content {
@@ -136,9 +152,6 @@ html{
 	height: 177500px;
 }
 
-.content-wrapper.events {
-	padding-bottom: 105%;
-}
 .content-wrapper.accom {
 	padding-bottom: 235%;
 }
@@ -229,3 +242,20 @@ margin-right: 0px;
 	width:100px;
 	height:100px;
 }*/
+
+.pre-accom {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	border: none;
+	background-color: white;
+	padding: 0;
+	font-size: 1em;
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+body {
+	color: #444;
+}
