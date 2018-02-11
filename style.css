@@ -11,7 +11,7 @@ html{
 .logo {
 	width: 350px;
 	float: left;
-    margin-top: 20px;
+    margin-top: 8px;
 }
 
 .logo img {
@@ -50,7 +50,7 @@ html{
 	margin: 0 auto;
 	height: 225px;
 	background-color: white;
-
+	position: relative;
 }
 
 .cycleimage {
@@ -274,4 +274,16 @@ margin-right: 0px;
 
 body {
 	color: #444;
+}
+
+.fb-follow {
+	display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 190px;
+    cursor: pointer;
+}
+
+.fb-follow img {
+	width: 5%;
 }
