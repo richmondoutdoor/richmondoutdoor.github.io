@@ -76,7 +76,9 @@ html{
 }
 
 .cycleimage.event-header {
-	background-image: url('eventpic.jpg');
+	background-image: url('eventscollage.jpg');
+	background-position-y: -10px;
+	height: 480px;
 }
 
 .cycleimage.accom-header {
