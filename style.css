@@ -3,7 +3,7 @@ html{
 }
 
 #wrap {
-	width: 1000px;
+	width: 550px;
 	margin: 0 auto;
 }
 
@@ -145,12 +145,12 @@ html{
 .content-wrapper {
     border: 1px solid #ccc;
     margin-bottom: 20px;
-    border-radius: 0px 0px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
     background-color: #fff;
 }
 
 .content-wrapper .content {
-	width: 630px;
+	width: 500px;
 	float: left;
 	padding-left: 50px;
 	text-align: justify;
